@@ -20,6 +20,7 @@
 <input type=hidden name='captcha_settings' value='{"keyname":"AvantiW2LreCAPTCHA","fallback":"true","orgId":"00DcT000002CySP","ts":""}'>
 <input type=hidden name="oid" value="00DcT000002CySP">
 <input type=hidden name="retURL" value="https://www.avanticorporate.com/">
+<input type=hidden name="lead_source" id="lead_source" value="Website">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -55,19 +56,6 @@ How did you hear about us?:<select  id="00NcT000001Yj29" name="00NcT000001Yj29" 
 <option value="LinkedIn">LinkedIn</option>
 <option value="Instagram">Instagram</option>
 <option value="Email">Email</option>
-</select><br>
-
-<label for="lead_source">Lead Source</label><select  id="lead_source" name="lead_source"><option value="">--None--</option><option value="Building Connected">Building Connected</option>
-<option value="Bid Invite">Bid Invite</option>
-<option value="General Contractor">General Contractor</option>
-<option value="Design Consultant">Design Consultant</option>
-<option value="Architectural Firm">Architectural Firm</option>
-<option value="Owner">Owner</option>
-<option value="Manufacturer&#39;s Rep Firm">Manufacturer&#39;s Rep Firm</option>
-<option value="Factory/Vendor">Factory/Vendor</option>
-<option value="Website">Website</option>
-<option value="Employee Referral">Employee Referral</option>
-<option value="Rory Clarke">Rory Clarke</option>
 </select><br>
 
 <div class="g-recaptcha" data-sitekey="6LfdLEotAAAAADt10zGVfCSzZSSVl3jX-vcVLmhz"></div><br>
