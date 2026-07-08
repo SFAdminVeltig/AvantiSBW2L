@@ -29,11 +29,11 @@
 <!--  value="sfadmin+avanti@veltig.com">                                      -->
 <!--  ----------------------------------------------------------------------  -->
 
-<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" Required /><br>
 
-<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" Required /><br>
 
-What can we help you with?:<select  id="00NcT000001Yj0X" name="00NcT000001Yj0X" title="What can we help you with?"><option value="">--None--</option><option value="Sales Inquiry">Sales Inquiry</option>
+What can we help you with?:<select  id="00NcT000001Yj0X" name="00NcT000001Yj0X" title="What can we help you with?" required="required"><option value="">--None--</option><option value="Sales Inquiry">Sales Inquiry</option>
 <option value="Equipment">Equipment</option>
 <option value="National Accounts">National Accounts</option>
 <option value="Design">Design</option>
@@ -44,9 +44,9 @@ What can we help you with?:<select  id="00NcT000001Yj0X" name="00NcT000001Yj0X" 
 <option value="Press/Media">Press/Media</option>
 </select><br>
 
-<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" Required /><br>
 
-<label for="description">Description</label><textarea name="description"></textarea><br>
+<label for="description">Message</label><textarea name="description" Required></textarea><br>
 
 <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
 
