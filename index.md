@@ -17,7 +17,7 @@
 
 <form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DcT000002CySP" method="POST">
 
-<input type=hidden name='captcha_settings' value='{"keyname":"AvantiW2LreCAPTCHA","fallback":"true","orgId":"00DcT000002CySP","ts":""}'>
+<input type=hidden name='captcha_settings' value='{"keyname":"WebtoLeadAvanti","fallback":"true","orgId":"00DcT000002CySP","ts":""}'>
 <input type=hidden name="oid" value="00DcT000002CySP">
 <input type=hidden name="retURL" value="https://www.avanticorporate.com/">
 <input type=hidden name="lead_source" id="lead_source" value="Website">
